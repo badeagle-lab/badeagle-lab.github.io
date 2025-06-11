@@ -1,4 +1,4 @@
-/* Reset */
+/* Reset default browser styles */
 * {
   margin: 0;
   padding: 0;
@@ -6,57 +6,89 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f2f6fc;
-  color: #333;
-  line-height: 1.6;
-  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
   text-align: center;
+  padding: 2rem;
+  min-height: 100vh;
 }
 
-/* Header Styling */
+/* Header section */
 header {
-  background-color: #4a90e2;
-  color: white;
-  padding: 40px 20px;
-  border-radius: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 
 header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #ffcc70;
+  animation: fadeIn 1s ease-in;
 }
 
 header p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  color: #dcdcdc;
 }
 
-/* Section Styling */
+/* Section content */
 section {
-  background-color: white;
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 800px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 1.5rem auto;
+  padding: 1.5rem;
+  border-radius: 15px;
+  max-width: 700px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
 }
 
-section h2 {
-  color: #4a90e2;
-  margin-bottom: 10px;
+section:hover {
+  transform: scale(1.02);
 }
 
-section p {
-  font-size: 1rem;
-  color: #555;
+h2 {
+  color: #ffe599;
+  margin-bottom: 0.8rem;
 }
 
-/* Footer Styling */
 footer {
-  margin-top: 30px;
-  color: #666;
+  margin-top: 2rem;
+  color: #ccc;
   font-size: 0.9rem;
 }
 
+/* Button (optional if you want to add one later) */
+button {
+  background-color: #ffcc70;
+  color: #333;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
 
+button:hover {
+  background-color: #ffd98e;
+  transform: scale(1.05);
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
