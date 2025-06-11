@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ByteForce</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to ByteForce</h1>
+    <p>A team of passionate learners and future developers </p>
+  </header>
+
+  <section>
+    <h2>Who Are We?</h2>
+    <p>We’re just getting started with web development, coding, and building amazing things.</p>
+    <p>Our goal: Learn, Build, Grow.</p>
+  </section>
+
+  <section>
+    <h2>Coming Soon</h2>
+    <p>Stay tuned for our upcoming projects, blogs, and more.</p>
+  </section>
+
+  <footer>
+    <p>Contact number: 98xxx xxx00</p>
+  </footer>
+</body>
+</html>
