@@ -1,129 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ByteForce | ECE Tech Team</title>
-  <style>
-    :root {
-      --primary-color: #4f46e5;
-      --bg-color: #f9fafb;
-      --text-color: #1f2937;
-      --accent-color: #6366f1;
-      --card-bg: #ffffff;
-    }
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
 
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      line-height: 1.6;
-    }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
 
-    header {
-      background: var(--primary-color);
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
+header {
+  background-color: #4a90e2;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
 
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
+section {
+  padding: 2rem;
+  background: white;
+  margin: 1rem auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
-    header p {
-      font-size: 1.1rem;
-      opacity: 0.95;
-    }
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #4a90e2;
+  color: white;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
 
-    .container {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-    }
-
-    section {
-      background-color: var(--card-bg);
-      border-radius: 10px;
-      padding: 1.5rem;
-      margin-bottom: 1.5rem;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-      transition: transform 0.2s ease-in-out;
-    }
-
-    section:hover {
-      transform: translateY(-5px);
-    }
-
-    h2 {
-      color: var(--accent-color);
-      margin-bottom: 0.8rem;
-    }
-
-    ul {
-      padding-left: 1.5rem;
-    }
-
-    footer {
-      background: var(--primary-color);
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.8rem;
-      }
-
-      section {
-        padding: 1rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>ByteForce</h1>
-    <p>ECE 1st Year | Tech Dreamers | Coders in Progress 🚀</p>
-  </header>
-
-  <div class="container">
-    <section>
-      <h2>About Us</h2>
-      <p>We’re a group of first-year ECE students, enthusiastic about learning new technologies and building real-world projects. ByteForce is our team name and our mindset — grow, build, and push limits.</p>
-    </section>
-
-    <section>
-      <h2>Skills</h2>
-      <ul>
-        <li>Python – Basics to logic-building</li>
-        <li>C – Strong fundamentals</li>
-        <li>HTML & CSS – Building beginner websites</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Goals</h2>
-      <p>We’re exploring AI, robotics, web development, and IoT. Our goal is to build at least 2 major projects this semester and sharpen our development + teamwork skills.</p>
-    </section>
-
-    <section>
-      <h2>Contact</h2>
-      <p>📧 Coming Soon | Connect with us as we grow our digital presence!</p>
-    </section>
-  </div>
-
-  <footer>
-    <p>&copy; 2025 ByteForce. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+.btn {
+  background-color: #4a90e2;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
